@@ -1,0 +1,47 @@
+.group {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+
+.group:hover {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.group-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-group-button {
+  position: fixed;
+  bottom: 10px;
+  left: 200px;
+  width: 50px;
+  height: 50px;
+  background-color: darkblue;
+  color: white;
+  font-size: 32px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.add-group-button:hover {
+  background-color: #5900c3;
+}
